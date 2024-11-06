@@ -1,4 +1,7 @@
-body {background-color: chocolate;}
+body {background-color: black;
+    background-image: url(../imagenes/toro.jpg);
+    background-attachment: fixed;
+}
 li {background-color: burlywood;
 text-align: center;}
 .amarillo {background-color: burlywood;
@@ -6,4 +9,4 @@ text-align: center;}
 .amarillo {font-size: 20px;}
 .red {color: bisque;
 text-decoration:underline;}
-img {width: 500px; height: 300px;}
+.espacio {padding: 100px;}
