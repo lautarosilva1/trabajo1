@@ -9,16 +9,21 @@ text-align: center;}
 .amarillo {font-size: 20px;}
 .red {color: bisque;
 text-decoration:underline;}
-.espacio {padding: 100px;}
+.espacio {padding: 40px;}
 aside {
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
+
 }
 header {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 50px;
 }
 .redes {
     display: flex;
@@ -28,10 +33,12 @@ header {
 footer {
     display: flex;
     justify-content: center;
-    align-items: end;
+    background-color: black;
+    border-radius: 50px;
+    justify-content: space-around;
+    align-items: center;
 }
 .redes2 {
-    justify-content: center;
     flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
@@ -39,6 +46,7 @@ footer {
 .titulo {
     background-color: burlywood;
     border-radius: 20px;
+    margin: 8px;
 
 }
 .receta {
@@ -47,4 +55,26 @@ footer {
     flex-wrap: wrap;
     display: flex;
     border-radius: 20px;
+}
+.ipc {
+  background-color: burlywood;
+  margin: 8px;
+  border-radius: 50px;
+}
+.mapa{
+  margin: 8px;
+}
+
+nav {
+  display: flex;
+  flex: wrap;
+  justify-content: space-around;
+  margin-left: 200px;
+  margin-right: 200px;
+  border-radius: 50px;
+  background-color: #8e1111;
+
+}
+.enlaces {
+  margin: 20px;
 }
