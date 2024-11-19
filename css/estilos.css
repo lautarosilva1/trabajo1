@@ -10,3 +10,41 @@ text-align: center;}
 .red {color: bisque;
 text-decoration:underline;}
 .espacio {padding: 100px;}
+aside {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+header {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.redes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.redes2 {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+.titulo {
+    background-color: burlywood;
+    border-radius: 20px;
+
+}
+.receta {
+    background-color: burlywood;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    border-radius: 20px;
+}
